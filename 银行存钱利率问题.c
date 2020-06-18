@@ -5,9 +5,9 @@ int main()
     float a;
     float total,lv;
     int year;
-    printf("ÇëÊäÈëÄêÏŞ:");
+    printf("è¯·è¾“å…¥å¹´é™:");
     scanf("%d",&year);
-    printf("ÇëÊäÈë±¾½ğ£º");
+    printf("è¯·è¾“å…¥æœ¬é‡‘ï¼š");
     scanf("%f",&a);
     switch(year)
     {
@@ -24,10 +24,11 @@ int main()
         lv=0.0395;
         break;
     default:
-        printf("ÊäÈëÓĞÎó£¡\n");
+        printf("è¾“å…¥æœ‰è¯¯ï¼\n");
         break;
     }
+    è¾“å…¥æœ¬é‡‘å’Œå¹´é™ï¼Œè®¡ç®—é“¶è¡Œçš„åˆ©ç‡é—®é¢˜ã€‚
     total = a*pow(1+lv,year);
-    printf("×îºó»ñÈ¡½ğ¶î£º%6.2f\n",total);
+    printf("æœ€åè·å–é‡‘é¢ï¼š%6.2f\n",total);
     return 0;
 }
