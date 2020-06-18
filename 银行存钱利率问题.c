@@ -27,8 +27,9 @@ int main()
         printf("输入有误！\n");
         break;
     }
-    输入本金和年限，计算银行的利率问题。
     total = a*pow(1+lv,year);
     printf("最后获取金额：%6.2f\n",total);
     return 0;
 }
+
+    输入本金和年限，计算银行的利率问题。
