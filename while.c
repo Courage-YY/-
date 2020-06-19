@@ -6,7 +6,7 @@ int main()
     int i,n,sum;
    i=1;
     sum=0;
-   printf("ÇëÊäÈënµÄÖµ");
+   printf("Ã‡Ã«ÃŠÃ¤ÃˆÃ«nÂµÃ„Ã–Âµ");
    scanf("%d",&n);
    while(i<=n)
    {
@@ -17,3 +17,4 @@ int main()
 
     return 0;
 }
+æ±‚1+2+3+4+5+6+7+8+......+n  ä¹‹å’Œã€‚
