@@ -1,2 +1,1 @@
-# Testproject
-这是测试创建的项目
+C language practice
