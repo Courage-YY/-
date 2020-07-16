@@ -18,4 +18,4 @@ int main()
     printf("sum= %d\n",sum);
     return 0;
 }
-//用while语句求1+2+3+4+5+6+7+8+......+n  之和。
+//用 do  while语句求1+2+3+4+5+6+7+8+......+n  之和。
